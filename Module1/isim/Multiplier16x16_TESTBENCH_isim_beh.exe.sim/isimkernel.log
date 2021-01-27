@@ -1,0 +1,28 @@
+Command line:
+   Multiplier16x16_TESTBENCH_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58946
+
+Wed Jan 27 17:34:32 2021
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5164.11 Meg
+
+ Total Signals          : 17
+ Total Nets             : 77
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 189
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 4692.25 Meg
+
+Wed Jan 27 17:38:55 2021
+
