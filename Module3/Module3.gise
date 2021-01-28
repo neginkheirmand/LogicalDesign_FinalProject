@@ -35,12 +35,72 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FanSpeed.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="FanSpeed_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FanSpeed_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ModePower_TESTBENCH_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ModePower_TESTBENCH_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ModePower_TESTBENCH_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ModePower_TESTBENCH_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1611845326" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1611845326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611845445" xil_pn:in_ck="-4266206311112970963" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1611845445">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CoolHeatSystem.v"/>
+      <outfile xil_pn:name="FanSpeed.v"/>
+      <outfile xil_pn:name="ModePower.v"/>
+      <outfile xil_pn:name="ModePower_TESTBENCH.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1611845326" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="656172706569825704" xil_pn:start_ts="1611845326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611845326" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3705445679237319340" xil_pn:start_ts="1611845326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611845326" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5096367513279880717" xil_pn:start_ts="1611845326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611845445" xil_pn:in_ck="-4266206311112970963" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1611845445">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CoolHeatSystem.v"/>
+      <outfile xil_pn:name="FanSpeed.v"/>
+      <outfile xil_pn:name="ModePower.v"/>
+      <outfile xil_pn:name="ModePower_TESTBENCH.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1611845447" xil_pn:in_ck="-4266206311112970963" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4990816144945303858" xil_pn:start_ts="1611845445">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ModePower_TESTBENCH_beh.prj"/>
+      <outfile xil_pn:name="ModePower_TESTBENCH_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1611845511" xil_pn:in_ck="6110959277021039040" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3973664367855029643" xil_pn:start_ts="1611845511">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ModePower_TESTBENCH_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
     <transform xil_pn:end_ts="1611844403" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1611844403">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -72,17 +132,12 @@
     <transform xil_pn:end_ts="1611844413" xil_pn:in_ck="-3922297398388585470" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-5963845772883521699" xil_pn:start_ts="1611844403">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="FanSpeed.lso"/>
-      <outfile xil_pn:name="FanSpeed.ngc"/>
-      <outfile xil_pn:name="FanSpeed.ngr"/>
-      <outfile xil_pn:name="FanSpeed.prj"/>
-      <outfile xil_pn:name="FanSpeed.stx"/>
-      <outfile xil_pn:name="FanSpeed.syr"/>
-      <outfile xil_pn:name="FanSpeed.xst"/>
-      <outfile xil_pn:name="FanSpeed_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 

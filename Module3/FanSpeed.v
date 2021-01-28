@@ -28,11 +28,15 @@ module FanSpeed (
 	 always @ (posedge clk or negedge arst)
 		if(~arst)
 			begin
+			//first we put a 0 in the output, without having in account the duty cycle
+				//reset the pwm_data
 				pwm_data = 1'b0;
+				//reset the counter
 				count = 9'b000000000;
 			end
 		else
 			begin
+				//when the 256 clocks are over you go and start all over again
 				if(count == 9'b100000000)
 					count = 9'b000000000;
 				if(count < speed)

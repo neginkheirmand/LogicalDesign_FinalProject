@@ -1,13 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// dev: Negin Kheirmand 
-// dev email: 		neginkheirmand@gmail.com
-// Create Date:    17:45:02 01/28/2021 
-// Design Name: 	 CoolHeatSystem
-// Module Name:    CoolHeatSystem 
-// Project Name: Final Logical Circuits project
-// Description: a simmple Cool & Heat System
-//
+// dev: Negin Kheirmand 																			/
+// dev email: 		neginkheirmand@gmail.com													/
+// Create Date:    17:45:02 01/28/2021 														/
+// Design Name: 	 CoolHeatSystem																/
+// Module Name:    CoolHeatSystem 																/
+// Project Name: Final Logical Circuits project												/
+// Description: a simmple Cool & Heat System													/
+//																											/
 //////////////////////////////////////////////////////////////////////////////////
 module CoolHeatSystem(
 	input        arst     , // reset [asynch]  
