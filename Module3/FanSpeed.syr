@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: FanSpeed.prj
 
@@ -122,8 +122,8 @@ Synthesizing Unit <FanSpeed>.
     Related source file is "C:\Users\venus\Desktop\uni2\3rd_SEMESTER\madar mantegh\FinalProject\Module3\FanSpeed.v".
     Found 1-bit register for signal <pwm_data>.
     Found 9-bit register for signal <count>.
-    Found 9-bit adder for signal <count[8]_GND_1_o_add_3_OUT> created at line 42.
-    Found 9-bit comparator greater for signal <count[8]_GND_1_o_LessThan_3_o> created at line 38
+    Found 9-bit adder for signal <count[8]_GND_1_o_add_3_OUT> created at line 46.
+    Found 9-bit comparator greater for signal <count[8]_GND_1_o_LessThan_3_o> created at line 42
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  10 D-type flip-flop(s).
@@ -211,9 +211,8 @@ Top Level Output File Name         : FanSpeed.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 36
+# BELS                             : 35
 #      GND                         : 1
-#      INV                         : 1
 #      LUT1                        : 7
 #      LUT4                        : 2
 #      LUT6                        : 8
@@ -235,14 +234,14 @@ Selected Device : 7z010clg400-1
 
 Slice Logic Utilization: 
  Number of Slice Registers:              10  out of  35200     0%  
- Number of Slice LUTs:                   18  out of  17600     0%  
-    Number used as Logic:                18  out of  17600     0%  
+ Number of Slice LUTs:                   17  out of  17600     0%  
+    Number used as Logic:                17  out of  17600     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     18
-   Number with an unused Flip Flop:       8  out of     18    44%  
-   Number with an unused LUT:             0  out of     18     0%  
-   Number of fully used LUT-FF pairs:    10  out of     18    55%  
+ Number of LUT Flip Flop pairs used:     17
+   Number with an unused Flip Flop:       7  out of     17    41%  
+   Number with an unused LUT:             0  out of     17     0%  
+   Number of fully used LUT-FF pairs:    10  out of     17    58%  
    Number of unique control sets:         1
 
 IO Utilization: 
@@ -382,12 +381,12 @@ clk            |    2.326|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.41 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.93 secs
  
 --> 
 
-Total memory usage is 4700196 kilobytes
+Total memory usage is 4707364 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

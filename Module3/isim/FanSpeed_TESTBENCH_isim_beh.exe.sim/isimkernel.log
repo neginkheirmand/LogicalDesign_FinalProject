@@ -2,14 +2,14 @@ Command line:
    FanSpeed_TESTBENCH_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  52570
+     -socket  53370
 
-Thu Jan 28 18:44:30 2021
+Thu Jan 28 20:02:24 2021
 
 
  Elaboration Time: 0.046875 sec
 
- Current Memory Usage: 5164.04 Meg
+ Current Memory Usage: 5164.1 Meg
 
  Total Signals          : 17
  Total Nets             : 24
@@ -20,9 +20,9 @@ Thu Jan 28 18:44:30 2021
  Total Traceable Variables  : 23
  Total Scalar Nets and Variables : 124
 
- Total Simulation Time: 0.25 sec
+ Total Simulation Time: 0.09375 sec
 
- Current Memory Usage: 4692.18 Meg
+ Current Memory Usage: 5478.67 Meg
 
-Thu Jan 28 19:00:16 2021
+Thu Jan 28 20:03:04 2021
 
