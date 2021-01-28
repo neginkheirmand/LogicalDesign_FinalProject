@@ -25,8 +25,8 @@ module FanSpeed (
 	output reg      pwm_data   // data  [output]
 );
 	reg [8:0]  count = 9'b000000000;
-	 always @ (posedge clk or negedge arst)
-		if(~arst)
+	 always @ (posedge clk or posedge arst)
+		if(arst)
 			begin
 			//first we put a 0 in the output, without having in account the duty cycle
 				//reset the pwm_data
