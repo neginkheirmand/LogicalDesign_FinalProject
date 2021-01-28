@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.20 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module3/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.21 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: CoolHeatSystem.prj
 
@@ -41,13 +41,16 @@ TABLE OF CONTENTS
 =========================================================================
 Analyzing Verilog file "C:\Users\venus\Desktop\uni2\3rd_SEMESTER\madar mantegh\FinalProject\Module3\CoolHeatSystem.v" into library work
 Parsing module <CoolHeatSystem>.
-ERROR:HDLCompiler:806 - "C:\Users\venus\Desktop\uni2\3rd_SEMESTER\madar mantegh\FinalProject\Module3\CoolHeatSystem.v" Line 13: Syntax error near ";".
-Verilog file C:\Users\venus\Desktop\uni2\3rd_SEMESTER\madar mantegh\FinalProject\Module3\CoolHeatSystem.v ignored due to errors
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.17 secs
+ 
 --> 
 
-Total memory usage is 4479924 kilobytes
+Total memory usage is 4480180 kilobytes
 
-Number of errors   :    1 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

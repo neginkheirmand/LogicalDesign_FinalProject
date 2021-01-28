@@ -22,7 +22,7 @@ module FanSpeed (
 	input        arst     , // reset [asynch]  
 	input        clk      , // clock [posedge] 
 	input  [7:0] speed    , // speed [duty-cycle]  
-	output       pwm_data   // data  [output]
+	output reg      pwm_data   // data  [output]
 );
 	reg [8:0]  count = 9'b000000000;
 	 always @ (posedge clk or negedge arst)

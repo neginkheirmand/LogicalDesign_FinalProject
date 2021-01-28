@@ -5,8 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"C:\Users\venus\Desktop\uni2\3rd_SEMESTER\madar mantegh\FinalProject\Module3\CoolHeatSystem.v" Line 13: Syntax error near &quot;<arg fmt="%s" index="1">;</arg>&quot;.
-</msg>
-
 </messages>
 
