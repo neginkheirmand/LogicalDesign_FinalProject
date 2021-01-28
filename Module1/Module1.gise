@@ -35,6 +35,12 @@
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="AdderSubtractor32bit_TESTBENCH_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="AdderSubtractor32bit_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="AdderSubtractor32bit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplier16x16.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Multiplier16x16.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Multiplier16x16.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplier8x8.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Multiplier8x8.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Multiplier8x8.xst"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="TemperatureCalculator.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="TemperatureCalculator.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="TemperatureCalculator.ngc"/>
@@ -86,6 +92,7 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="AdderSubtractor32bit.v"/>
       <outfile xil_pn:name="AdderSubtractor32bit_TESTBENCH.v"/>
     </transform>
@@ -95,6 +102,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="AdderSubtractor32bit_TESTBENCH_beh.prj"/>
       <outfile xil_pn:name="AdderSubtractor32bit_TESTBENCH_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -142,6 +150,10 @@
     <transform xil_pn:end_ts="1611849446" xil_pn:in_ck="-6644789864222035695" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-1299612395501733137" xil_pn:start_ts="1611849438">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="AdderSubtractor32bit.ngr"/>
       <outfile xil_pn:name="TemperatureCalculator.lso"/>
       <outfile xil_pn:name="TemperatureCalculator.ngc"/>

@@ -15,7 +15,13 @@ module Multiplier16x16(
 	output [31:0] P   // output [unsigned 32 bits]
     );
 	 //the size of the output is double the size of the inputs because of multiplication 
-	 assign P = A*B;
-
+	wire [31:0] p1;
+	wire [15:0] a1, b1;
+	wire sign;
+	assign a1 = A[15] ? (~A + 1) : A;    //unsigned value of A
+	assign b1 = B[15] ? (~B + 1) : B;    //unsigned value of B
+	assign sign = A[15] ^ B[15];          //sign of P
+	assign p1 = a1 * b1;                //unsigned value of P
+	assign P = sign ? (~p1 + 1) : p1;   //final output (P)
 
 endmodule

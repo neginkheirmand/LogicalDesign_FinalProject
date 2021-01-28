@@ -14,7 +14,13 @@ module Multiplier8x8(
 	input  [ 7:0] B , // input  [unsigned 08 bits]
 	output [15:0] P   // output [unsigned 16 bits]
     );
-	 assign P = A*B;
-
+	wire [15:0] p1;
+	wire [7:0] a1, b1;
+	wire sign;
+	assign a1 = A[7] ? (~A + 1) : A;    //unsigned value of A
+	assign b1 = B[7] ? (~B + 1) : B;    //unsigned value of B
+	assign sign = A[7] ^ B[7];          //sign of P
+	assign p1 = a1 * b1;                //unsigned value of P
+assign P = sign ? (~p1 + 1) : p1;   //final output (P)
 
 endmodule
