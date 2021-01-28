@@ -76,10 +76,9 @@
       <outfile xil_pn:name="GasDetectorSensor.v"/>
       <outfile xil_pn:name="GasDetectorSensor_TESTBENCH.v"/>
     </transform>
-    <transform xil_pn:end_ts="1611850591" xil_pn:in_ck="1413638293970976581" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4762608767550267116" xil_pn:start_ts="1611850589">
+    <transform xil_pn:end_ts="1611852181" xil_pn:in_ck="1413638293970976581" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4762608767550267116" xil_pn:start_ts="1611852178">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="GasDetectorSensor_TESTBENCH_beh.prj"/>
@@ -89,11 +88,9 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1611850591" xil_pn:in_ck="-1428282170327634627" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7088857366970075471" xil_pn:start_ts="1611850591">
+    <transform xil_pn:end_ts="1611852181" xil_pn:in_ck="-1428282170327634627" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7088857366970075471" xil_pn:start_ts="1611852181">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="GasDetectorSensor_TESTBENCH_isim_beh.wdb"/>
@@ -131,6 +128,8 @@
     <transform xil_pn:end_ts="1611851285" xil_pn:in_ck="2253865147676411411" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="150419919926876006" xil_pn:start_ts="1611851276">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="GasDetectorSensor.lso"/>
       <outfile xil_pn:name="GasDetectorSensor.ngc"/>
       <outfile xil_pn:name="GasDetectorSensor.ngr"/>

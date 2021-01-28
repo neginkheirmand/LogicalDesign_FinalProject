@@ -2,14 +2,14 @@ Command line:
    GasDetectorSensor_TESTBENCH_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  53231
+     -socket  53490
 
-Thu Jan 28 19:46:32 2021
+Thu Jan 28 20:13:03 2021
 
 
  Elaboration Time: 0.0625 sec
 
- Current Memory Usage: 5164.12 Meg
+ Current Memory Usage: 5164.14 Meg
 
  Total Signals          : 17
  Total Nets             : 19
@@ -20,9 +20,9 @@ Thu Jan 28 19:46:32 2021
  Total Traceable Variables  : 56
  Total Scalar Nets and Variables : 241
 
- Total Simulation Time: 0.3125 sec
+ Total Simulation Time: 0.09375 sec
 
- Current Memory Usage: 4692.26 Meg
+ Current Memory Usage: 5164.14 Meg
 
-Thu Jan 28 19:54:43 2021
+Thu Jan 28 20:13:07 2021
 

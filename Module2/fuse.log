@@ -12,8 +12,7 @@ Compiling module GasDetectorSensor
 Compiling module GasDetectorSensor_TESTBENCH
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
 Built simulation executable C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module2/GasDetectorSensor_TESTBENCH_isim_beh.exe
-Fuse Memory Usage: 28088 KB
-Fuse CPU Usage: 374 ms
+Fuse Memory Usage: 28788 KB
+Fuse CPU Usage: 281 ms
