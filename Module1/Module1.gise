@@ -22,213 +22,134 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Module1.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="AdderSubtractor32bit.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="AdderSubtractor32bit.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="AdderSubtractor32bit.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="AdderSubtractor32bit.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="AdderSubtractor32bit.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="AdderSubtractor32bit.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="AdderSubtractor32bit.ngr"/>
-    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="AdderSubtractor32bit.pad"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="AdderSubtractor32bit.par" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="AdderSubtractor32bit.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AdderSubtractor32bit.prj"/>
-    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="AdderSubtractor32bit.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="AdderSubtractor32bit.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="AdderSubtractor32bit.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="AdderSubtractor32bit.twr" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="AdderSubtractor32bit.twx" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="AdderSubtractor32bit.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XPI" xil_pn:name="AdderSubtractor32bit.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="AdderSubtractor32bit.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AdderSubtractor32bit_TESTBENCH_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="AdderSubtractor32bit_TESTBENCH_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AdderSubtractor32bit_TESTBENCH_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_NCD" xil_pn:name="AdderSubtractor32bit_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="AdderSubtractor32bit_map.map" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="AdderSubtractor32bit_map.mrp" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="AdderSubtractor32bit_map.ncd" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="AdderSubtractor32bit_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="AdderSubtractor32bit_map.xrpt"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="AdderSubtractor32bit_ngdbuild.xrpt"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="AdderSubtractor32bit_pad.csv" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="AdderSubtractor32bit_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="AdderSubtractor32bit_par.xrpt"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="AdderSubtractor32bit_TESTBENCH_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="AdderSubtractor32bit_summary.html"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="AdderSubtractor32bit_summary.xml"/>
-    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="AdderSubtractor32bit_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="AdderSubtractor32bit_xst.xrpt"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplier16x16_TESTBENCH_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplier16x16_TESTBENCH_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplier8x8_TESTBENCH_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplier8x8_TESTBENCH_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Multiplier8x8_TESTBENCH_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplier8x8_TESTBENCH_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
-    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
-    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
-    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="TemperatureCalculator.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="TemperatureCalculator.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="TemperatureCalculator.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="TemperatureCalculator.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TemperatureCalculator.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="TemperatureCalculator.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="TemperatureCalculator.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="TemperatureCalculator.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="TemperatureCalculator_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TemperatureCalculator_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1611755608" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1611755608">
+    <transform xil_pn:end_ts="1611849260" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1611849260">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1611756817" xil_pn:in_ck="1761029072472041319" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1611756817">
+    <transform xil_pn:end_ts="1611849260" xil_pn:in_ck="544830548871763553" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1611849260">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="AdderSubtractor32bit.v"/>
+      <outfile xil_pn:name="AdderSubtractor32bit_TESTBENCH.v"/>
     </transform>
-    <transform xil_pn:end_ts="1611756822" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7773319913943148699" xil_pn:start_ts="1611756822">
+    <transform xil_pn:end_ts="1611849260" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2239759515666618749" xil_pn:start_ts="1611849260">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1611756822" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3515439913291407721" xil_pn:start_ts="1611756822">
+    <transform xil_pn:end_ts="1611849260" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6790022588855496327" xil_pn:start_ts="1611849260">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1611755608" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3410755367302051124" xil_pn:start_ts="1611755608">
+    <transform xil_pn:end_ts="1611849260" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3410755367302051124" xil_pn:start_ts="1611849260">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1611756822" xil_pn:in_ck="1761029072472041319" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1611756822">
+    <transform xil_pn:end_ts="1611849260" xil_pn:in_ck="544830548871763553" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1611849260">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="AdderSubtractor32bit.v"/>
+      <outfile xil_pn:name="AdderSubtractor32bit_TESTBENCH.v"/>
     </transform>
-    <transform xil_pn:end_ts="1611756824" xil_pn:in_ck="1761029072472041319" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-9203784908619392468" xil_pn:start_ts="1611756822">
+    <transform xil_pn:end_ts="1611849264" xil_pn:in_ck="544830548871763553" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="299226077237931656" xil_pn:start_ts="1611849260">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="AdderSubtractor32bit_TESTBENCH_beh.prj"/>
+      <outfile xil_pn:name="AdderSubtractor32bit_TESTBENCH_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1611849265" xil_pn:in_ck="3725060089798769979" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3254110697969697461" xil_pn:start_ts="1611849264">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="AdderSubtractor32bit_TESTBENCH_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
     </transform>
-    <transform xil_pn:end_ts="1611756825" xil_pn:in_ck="5602042597986744563" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7735989287334359311" xil_pn:start_ts="1611756824">
+    <transform xil_pn:end_ts="1611849246" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1611849245">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1611755524" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1611755524">
+    <transform xil_pn:end_ts="1611849438" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6843936201844768173" xil_pn:start_ts="1611849438">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1611755524" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8063332923485737208" xil_pn:start_ts="1611755524">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-    </transform>
-    <transform xil_pn:end_ts="1611755524" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3410755367302051124" xil_pn:start_ts="1611755524">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-    </transform>
-    <transform xil_pn:end_ts="1611755524" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1611755524">
+    <transform xil_pn:end_ts="1611849438" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3236841915952988993" xil_pn:start_ts="1611849438">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1611755524" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4880040696189716604" xil_pn:start_ts="1611755524">
+    <transform xil_pn:end_ts="1611849246" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1611849246">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1611755524" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8912443121649815033" xil_pn:start_ts="1611755524">
+    <transform xil_pn:end_ts="1611849438" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5970986930376153679" xil_pn:start_ts="1611849438">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1611755524" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5811785463194877186" xil_pn:start_ts="1611755524">
+    <transform xil_pn:end_ts="1611849246" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8912443121649815033" xil_pn:start_ts="1611849246">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1611755534" xil_pn:in_ck="3237915649189372753" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="5297641244036427812" xil_pn:start_ts="1611755524">
+    <transform xil_pn:end_ts="1611849438" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="6013959930710754249" xil_pn:start_ts="1611849438">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1611755546" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="722813675796392495" xil_pn:start_ts="1611755546">
+    <transform xil_pn:end_ts="1611849446" xil_pn:in_ck="-6644789864222035695" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-1299612395501733137" xil_pn:start_ts="1611849438">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-    </transform>
-    <transform xil_pn:end_ts="1611755553" xil_pn:in_ck="2762023888702564147" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-3363205546355731272" xil_pn:start_ts="1611755546">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1611755573" xil_pn:in_ck="2762023888702564148" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="5826180378948242564" xil_pn:start_ts="1611755553">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1611755595" xil_pn:in_ck="9127179736418594893" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-1288923720530104205" xil_pn:start_ts="1611755573">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1611755595" xil_pn:in_ck="2762023888702564016" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416183" xil_pn:start_ts="1611755586">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="AdderSubtractor32bit.ngr"/>
+      <outfile xil_pn:name="TemperatureCalculator.lso"/>
+      <outfile xil_pn:name="TemperatureCalculator.ngc"/>
+      <outfile xil_pn:name="TemperatureCalculator.ngr"/>
+      <outfile xil_pn:name="TemperatureCalculator.prj"/>
+      <outfile xil_pn:name="TemperatureCalculator.stx"/>
+      <outfile xil_pn:name="TemperatureCalculator.syr"/>
+      <outfile xil_pn:name="TemperatureCalculator.xst"/>
+      <outfile xil_pn:name="TemperatureCalculator_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
     </transform>
   </transforms>
 
