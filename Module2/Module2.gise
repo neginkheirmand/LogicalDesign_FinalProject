@@ -40,7 +40,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1611814792" xil_pn:in_ck="-2434723010431413018" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1611814792">
+    <transform xil_pn:end_ts="1611816058" xil_pn:in_ck="-2434723010431413018" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1611816058">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="GasDetectorSensor.v"/>
@@ -58,15 +58,18 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1611814792" xil_pn:in_ck="-2434723010431413018" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1611814792">
+    <transform xil_pn:end_ts="1611816058" xil_pn:in_ck="-2434723010431413018" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1611816058">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="GasDetectorSensor.v"/>
       <outfile xil_pn:name="GasDetectorSensor_Methane_TESTBENCH.v"/>
     </transform>
-    <transform xil_pn:end_ts="1611814810" xil_pn:in_ck="-2434723010431413018" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5706996079774241454" xil_pn:start_ts="1611814807">
+    <transform xil_pn:end_ts="1611816061" xil_pn:in_ck="-2434723010431413018" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5706996079774241454" xil_pn:start_ts="1611816058">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="GasDetectorSensor_Methane_TESTBENCH_beh.prj"/>
       <outfile xil_pn:name="GasDetectorSensor_Methane_TESTBENCH_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -74,9 +77,13 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1611814810" xil_pn:in_ck="-4933917373835700708" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6258393997791590223" xil_pn:start_ts="1611814810">
+    <transform xil_pn:end_ts="1611816061" xil_pn:in_ck="-4933917373835700708" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6258393997791590223" xil_pn:start_ts="1611816061">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="GasDetectorSensor_Methane_TESTBENCH_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>

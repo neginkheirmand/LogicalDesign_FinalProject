@@ -28,11 +28,10 @@ module GasDetectorSensor_Methane_TESTBENCH;
 	
 	initial 
 	begin
-		// Initialize Inputs
+	
+	/*
 		arst = 1'b1;
 		din = 1'b0;
-
-		// Wait 100 ns for global reset to finish
 		#90;
 		arst = 1'b0;
 		#20
@@ -63,8 +62,7 @@ module GasDetectorSensor_Methane_TESTBENCH;
 		din = 1'b0;
 		#40
 		din = 1'b0;
-        
-		#40
+        */
 		arst = 1'b1;
 		din = 1'b0;
 		#40

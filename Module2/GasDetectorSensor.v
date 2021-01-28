@@ -31,7 +31,7 @@ module GasDetectorSensor (
 				dout = 3'b000;
 				currentState = 4'b0000;
 				currentMonoxideState = 4'b0000;
-				
+				currentDioxideState = 4'b0000;
 			//end
 		end
 	
@@ -240,5 +240,93 @@ module GasDetectorSensor (
 	end
 	
 	
+	
+	//Carbon Dioxide detection
+	
+	parameter c_1 = 4'b0000, c_2 = 4'b0001, c_3 = 4'b0010, c_4 = 4'b0011, c_5 = 4'b0100,
+					c_6 = 4'b0101, c_7 = 4'b0110 , c_8 = 4'b0111, c_9 = 4'b1000;
+	
+	
+	reg [3:0] currentDioxideState ;
+		always @ (posedge clk)
+		begin 
+		case (currentDioxideState )
+			c_1 : begin
+					dout[2]= 0;
+					if (din) 
+					begin 
+						currentDioxideState = c_2;
+					end
+				  end
+				  
+			c_2 : begin 
+					dout[2]= 0;
+					if (~din) 
+					begin 
+						currentDioxideState = c_3;
+					end
+				  end
+			c_3 : begin 
+					dout[2]= 0;
+					if (din) 
+					begin 
+						currentDioxideState = c_2;
+					end
+					else currentDioxideState = c_4;
+				  end
+			c_4 : begin 
+					dout[2]= 0;
+					if (din) 
+					begin 
+						currentDioxideState = c_5;
+					end
+					else currentDioxideState = c_1;
+				  end
+			c_5 : begin 
+					dout[2]= 0;
+					if (din) 
+					begin 
+						currentDioxideState = c_2;
+					end
+					else currentDioxideState = c_6;
+				  end
+			c_6 : begin 
+					dout[2]= 0;
+					if (din) 
+					begin 
+						currentDioxideState = c_2;
+					end
+					else currentDioxideState = c_7;
+				  end
+			c_7 : begin 
+					dout[2]= 0;
+					if (din) 
+					begin 
+						currentDioxideState = c_8;
+					end
+					else currentDioxideState = c_1;
+				  end
+			c_8 : begin 
+					dout[2]= 0;	
+					if (din) 
+					begin 
+						currentDioxideState = c_2;
+					end
+					else currentDioxideState = c_9;
+				  end
+			c_9 : begin 	
+					if (din) 
+					begin 
+						currentDioxideState = c_2;
+						dout[2]= 0;
+					end
+					else 
+					begin
+						currentDioxideState = c_7;
+						dout[2]= 1;
+					end
+				  end
+		endcase
+	end
 	
 endmodule
