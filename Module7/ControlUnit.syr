@@ -1,0 +1,383 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: ControlUnit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ControlUnit.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ControlUnit"
+Output Format                      : NGC
+Target Device                      : xc7z010-1-clg400
+
+---- Source Options
+Top Module Name                    : ControlUnit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\venus\Desktop\uni2\3rd_SEMESTER\madar mantegh\FinalProject\Module7\PassCheckUnit.v" into library work
+Parsing module <PassCheckUnit>.
+Analyzing Verilog file "C:\Users\venus\Desktop\uni2\3rd_SEMESTER\madar mantegh\FinalProject\Module7\ControlUnit.v" into library work
+Parsing module <ControlUnit>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <ControlUnit>.
+
+Elaborating module <PassCheckUnit>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ControlUnit>.
+    Related source file is "C:\Users\venus\Desktop\uni2\3rd_SEMESTER\madar mantegh\FinalProject\Module7\ControlUnit.v".
+WARNING:Xst:647 - Input <configin> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <write_en>.
+    Found 1-bit register for signal <dbg_state<2>>.
+    Found 1-bit register for signal <dbg_state<1>>.
+    Found 1-bit register for signal <dbg_state<0>>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <ControlUnit> synthesized.
+
+Synthesizing Unit <PassCheckUnit>.
+    Related source file is "C:\Users\venus\Desktop\uni2\3rd_SEMESTER\madar mantegh\FinalProject\Module7\PassCheckUnit.v".
+    Found 2-bit comparator equal for signal <equal> created at line 29
+    Summary:
+	inferred   1 Comparator(s).
+Unit <PassCheckUnit> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 3
+ 1-bit register                                        : 3
+# Comparators                                          : 1
+ 2-bit comparator equal                                : 1
+# Multiplexers                                         : 2
+ 3-bit 2-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+# Comparators                                          : 1
+ 2-bit comparator equal                                : 1
+# Multiplexers                                         : 2
+ 3-bit 2-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ControlUnit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ControlUnit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : ControlUnit.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 7
+#      GND                         : 1
+#      LUT2                        : 3
+#      LUT4                        : 1
+#      LUT6                        : 2
+# FlipFlops/Latches                : 3
+#      FDC                         : 2
+#      FDP                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 46
+#      IBUF                        : 7
+#      OBUF                        : 39
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z010clg400-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               3  out of  35200     0%  
+ Number of Slice LUTs:                    6  out of  17600     0%  
+    Number used as Logic:                 6  out of  17600     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      9
+   Number with an unused Flip Flop:       6  out of      9    66%  
+   Number with an unused LUT:             3  out of      9    33%  
+   Number of fully used LUT-FF pairs:     0  out of      9     0%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          82
+ Number of bonded IOBs:                  47  out of    100    47%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 0.968ns (Maximum Frequency: 1033.058MHz)
+   Minimum input arrival time before clock: 1.347ns
+   Maximum output required time after clock: 0.701ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 0.968ns (frequency: 1033.058MHz)
+  Total number of paths / destination ports: 9 / 3
+-------------------------------------------------------------------------
+Delay:               0.968ns (Levels of Logic = 1)
+  Source:            dbg_state_2 (FF)
+  Destination:       dbg_state_1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: dbg_state_2 to dbg_state_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.282   0.622  dbg_state_2 (dbg_state_2)
+     LUT4:I1->O            1   0.053   0.000  dbg_state[2]_GND_1_o_wide_mux_4_OUT<0>1 (dbg_state[2]_GND_1_o_wide_mux_4_OUT<0>)
+     FDP:D                     0.011          dbg_state_0
+    ----------------------------------------
+    Total                      0.968ns (0.346ns logic, 0.622ns route)
+                                       (35.7% logic, 64.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 17 / 6
+-------------------------------------------------------------------------
+Offset:              1.347ns (Levels of Logic = 3)
+  Source:            password<0> (PAD)
+  Destination:       dbg_state_1 (FF)
+  Destination Clock: clk rising
+
+  Data Path: password<0> to dbg_state_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.000   0.485  password_0_IBUF (password_0_IBUF)
+     LUT2:I0->O            2   0.053   0.745  correctPass221 (correctPass22)
+     LUT6:I0->O            1   0.053   0.000  dbg_state[2]_GND_1_o_wide_mux_4_OUT<1>1 (dbg_state[2]_GND_1_o_wide_mux_4_OUT<1>)
+     FDC:D                     0.011          dbg_state_1
+    ----------------------------------------
+    Total                      1.347ns (0.117ns logic, 1.230ns route)
+                                       (8.7% logic, 91.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              0.701ns (Levels of Logic = 1)
+  Source:            dbg_state_2 (FF)
+  Destination:       dbg_state<2> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: dbg_state_2 to dbg_state<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.282   0.419  dbg_state_2 (dbg_state_2)
+     OBUF:I->O                 0.000          dbg_state_2_OBUF (dbg_state<2>)
+    ----------------------------------------
+    Total                      0.701ns (0.282ns logic, 0.419ns route)
+                                       (40.2% logic, 59.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    0.968|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.41 secs
+ 
+--> 
+
+Total memory usage is 4706084 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

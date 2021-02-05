@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module7/ControlUnit.xst" -ofn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module7/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module7/ControlUnit.xst" -ofn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module7/ControlUnit.syr" 
