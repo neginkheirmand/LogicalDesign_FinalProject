@@ -8,7 +8,16 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LightingSystem_TESTBENCH.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/ActiveLamps.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LampState.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LightingSystem.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/WindowShadeDegree.v&quot; into library work</arg>
 </msg>
 
 </messages>
