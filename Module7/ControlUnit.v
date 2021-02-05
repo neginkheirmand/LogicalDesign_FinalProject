@@ -88,7 +88,8 @@ module ControlUnit (
 							end
 						end
 						`STATE_STORE : begin
-							write_en  <= 1'b0;
+							write_en  <= 1'b1;
+							//				-------- HERE YOU SHOULD STORE DATA	----------
 						end
 						`STATE_TRAP : begin
 							write_en  <= 1'b0;
@@ -102,7 +103,6 @@ module ControlUnit (
 							//the going-back to the starting idle state is automatic
 							dbg_state <= `STATE_IDLE;
 						end
-						
 					endcase
 				end
 			end
