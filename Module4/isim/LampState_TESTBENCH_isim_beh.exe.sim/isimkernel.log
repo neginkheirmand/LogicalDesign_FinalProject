@@ -1,0 +1,28 @@
+Command line:
+   LampState_TESTBENCH_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62103
+
+Fri Feb 05 18:33:20 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5164.11 Meg
+
+ Total Signals          : 16
+ Total Nets             : 33
+ Total Signal Drivers   : 22
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 24
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 117
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5006.82 Meg
+
+Fri Feb 05 18:35:25 2021
+

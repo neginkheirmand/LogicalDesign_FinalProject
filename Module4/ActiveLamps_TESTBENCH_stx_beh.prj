@@ -1,0 +1,3 @@
+verilog isim_temp "ActiveLamps.v"
+verilog isim_temp "ActiveLamps_TESTBENCH.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
