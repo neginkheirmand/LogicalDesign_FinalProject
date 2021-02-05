@@ -13,3 +13,4 @@ xst -intstyle ise -ifn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/F
 xst -intstyle ise -ifn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LampState.xst" -ofn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LampState.syr" 
 xst -intstyle ise -ifn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LampState.xst" -ofn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LampState.syr" 
 xst -intstyle ise -ifn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LampState.xst" -ofn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LampState.syr" 
+xst -intstyle ise -ifn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LampState.xst" -ofn "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module4/LampState.syr" 

@@ -20,7 +20,7 @@
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
 
-xmodule ActiveLamps (
+module ActiveLamps (
 	input  [3:0] tcode  , // time code    [table2 time code   ]
 	input  [3:0] ulight , // user light   [light degree mode  ]
     input  [3:0] lenght     , // room length  [square room lenght ]
