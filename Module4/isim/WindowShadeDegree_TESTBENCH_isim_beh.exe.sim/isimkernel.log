@@ -2,14 +2,14 @@ Command line:
    WindowShadeDegree_TESTBENCH_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  62425
+     -socket  57299
 
-Fri Feb 05 19:27:19 2021
+Sat Feb 06 21:44:34 2021
 
 
- Elaboration Time: 0.078125 sec
+ Elaboration Time: 0.109375 sec
 
- Current Memory Usage: 5164.08 Meg
+ Current Memory Usage: 5164.09 Meg
 
  Total Signals          : 16
  Total Nets             : 25
@@ -20,9 +20,9 @@ Fri Feb 05 19:27:19 2021
  Total Traceable Variables  : 26
  Total Scalar Nets and Variables : 137
 
- Total Simulation Time: 0.09375 sec
+ Total Simulation Time: 0.125 sec
 
- Current Memory Usage: 5006.79 Meg
+ Current Memory Usage: 5321.37 Meg
 
-Fri Feb 05 19:29:29 2021
+Sat Feb 06 21:45:24 2021
 

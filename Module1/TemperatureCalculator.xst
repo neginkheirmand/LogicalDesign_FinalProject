@@ -1,6 +1,9 @@
-set -tmpdir "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module1/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module1/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn TemperatureCalculator.prj
+-ofn TemperatureCalculator
+-ofmt NGC
 -p xc7z010-1-clg400
 -top TemperatureCalculator
 -opt_mode Speed
@@ -47,4 +50,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn TemperatureCalculator.prj

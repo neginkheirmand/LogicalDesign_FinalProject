@@ -2,14 +2,14 @@ Command line:
    LightingSystem_TESTBENCH_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  62655
+     -socket  57272
 
-Fri Feb 05 20:23:45 2021
+Sat Feb 06 21:43:24 2021
 
 
- Elaboration Time: 0.0625 sec
+ Elaboration Time: 0.046875 sec
 
- Current Memory Usage: 5164.08 Meg
+ Current Memory Usage: 5164.15 Meg
 
  Total Signals          : 29
  Total Nets             : 49
@@ -20,9 +20,9 @@ Fri Feb 05 20:23:45 2021
  Total Traceable Variables  : 33
  Total Scalar Nets and Variables : 189
 
- Total Simulation Time: 0.1875 sec
+ Total Simulation Time: 0.0625 sec
 
- Current Memory Usage: 4692.22 Meg
+ Current Memory Usage: 5478.72 Meg
 
-Fri Feb 05 20:29:06 2021
+Sat Feb 06 21:44:07 2021
 

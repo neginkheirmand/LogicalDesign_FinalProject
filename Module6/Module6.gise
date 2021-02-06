@@ -30,16 +30,18 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="MemoryUnit.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="MemoryUnit.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="MemoryUnit.xst"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MemoryUnit_TESTBENCH_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MemoryUnit_TESTBENCH_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MemoryUnit_TESTBENCH_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="MemoryUnit_TESTBENCH_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="MemoryUnit_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MemoryUnit_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="MemoryUnit_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MemoryUnit_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -56,11 +58,11 @@
       <outfile xil_pn:name="MemoryUnit.v"/>
       <outfile xil_pn:name="MemoryUnit_TESTBENCH.v"/>
     </transform>
-    <transform xil_pn:end_ts="1612552453" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="9144310151046099439" xil_pn:start_ts="1612552453">
+    <transform xil_pn:end_ts="1612634717" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="9144310151046099439" xil_pn:start_ts="1612634717">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1612552453" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6955125992320080397" xil_pn:start_ts="1612552453">
+    <transform xil_pn:end_ts="1612634717" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6955125992320080397" xil_pn:start_ts="1612634717">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -74,20 +76,26 @@
       <outfile xil_pn:name="MemoryUnit.v"/>
       <outfile xil_pn:name="MemoryUnit_TESTBENCH.v"/>
     </transform>
-    <transform xil_pn:end_ts="1612553198" xil_pn:in_ck="-6811301225531548423" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3906071571832592352" xil_pn:start_ts="1612553196">
+    <transform xil_pn:end_ts="1612634720" xil_pn:in_ck="-6811301225531548423" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3906071571832592352" xil_pn:start_ts="1612634717">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MemoryUnit_TESTBENCH_beh.prj"/>
       <outfile xil_pn:name="MemoryUnit_TESTBENCH_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1612553198" xil_pn:in_ck="-1969231411508152153" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8503402263723719587" xil_pn:start_ts="1612553198">
+    <transform xil_pn:end_ts="1612634720" xil_pn:in_ck="7283191087770349583" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8503402263723719587" xil_pn:start_ts="1612634720">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MemoryUnit_TESTBENCH_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1612552608" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1612552608">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -122,6 +130,7 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="MemoryUnit.lso"/>
       <outfile xil_pn:name="MemoryUnit.ngc"/>
       <outfile xil_pn:name="MemoryUnit.ngr"/>
@@ -129,7 +138,6 @@
       <outfile xil_pn:name="MemoryUnit.stx"/>
       <outfile xil_pn:name="MemoryUnit.syr"/>
       <outfile xil_pn:name="MemoryUnit.xst"/>
-      <outfile xil_pn:name="MemoryUnit_TESTBENCH_beh.prj"/>
       <outfile xil_pn:name="MemoryUnit_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>

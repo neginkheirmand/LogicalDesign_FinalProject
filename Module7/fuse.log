@@ -14,7 +14,8 @@ Compiling module ControlUnit
 Compiling module ControlUnit_TESTBENCH
 Compiling module glbl
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 4 Verilog Units
 Built simulation executable C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module7/ControlUnit_TESTBENCH_isim_beh.exe
-Fuse Memory Usage: 28264 KB
-Fuse CPU Usage: 343 ms
+Fuse Memory Usage: 28244 KB
+Fuse CPU Usage: 468 ms

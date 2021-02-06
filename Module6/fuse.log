@@ -15,5 +15,5 @@ Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
 Built simulation executable C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module6/MemoryUnit_TESTBENCH_isim_beh.exe
-Fuse Memory Usage: 28148 KB
-Fuse CPU Usage: 311 ms
+Fuse Memory Usage: 28136 KB
+Fuse CPU Usage: 264 ms

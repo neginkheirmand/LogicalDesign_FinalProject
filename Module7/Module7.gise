@@ -53,13 +53,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1612631087" xil_pn:in_ck="-5481018313670140382" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1612631087">
+    <transform xil_pn:end_ts="1612634857" xil_pn:in_ck="-5481018313670140382" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1612634857">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ControlUnit.v"/>
       <outfile xil_pn:name="ControlUnit_TESTBENCH.v"/>
       <outfile xil_pn:name="PassCheckUnit.v"/>
@@ -76,25 +72,18 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1612631087" xil_pn:in_ck="-5481018313670140382" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1612631087">
+    <transform xil_pn:end_ts="1612634857" xil_pn:in_ck="-5481018313670140382" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1612634857">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ControlUnit.v"/>
       <outfile xil_pn:name="ControlUnit_TESTBENCH.v"/>
       <outfile xil_pn:name="PassCheckUnit.v"/>
     </transform>
-    <transform xil_pn:end_ts="1612631090" xil_pn:in_ck="-5481018313670140382" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8517978226361995472" xil_pn:start_ts="1612631087">
+    <transform xil_pn:end_ts="1612634860" xil_pn:in_ck="-5481018313670140382" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8517978226361995472" xil_pn:start_ts="1612634857">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ControlUnit_TESTBENCH_beh.prj"/>
       <outfile xil_pn:name="ControlUnit_TESTBENCH_isim_beh.exe"/>
@@ -103,9 +92,10 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1612631090" xil_pn:in_ck="-8334927692843568193" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2726141706140790989" xil_pn:start_ts="1612631090">
+    <transform xil_pn:end_ts="1612634860" xil_pn:in_ck="-8334927692843568193" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2726141706140790989" xil_pn:start_ts="1612634860">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
@@ -144,6 +134,8 @@
     <transform xil_pn:end_ts="1612631170" xil_pn:in_ck="-8939011227708231970" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-3202919934906254344" xil_pn:start_ts="1612631156">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ControlUnit.lso"/>
       <outfile xil_pn:name="ControlUnit.ngc"/>
       <outfile xil_pn:name="ControlUnit.ngr"/>
