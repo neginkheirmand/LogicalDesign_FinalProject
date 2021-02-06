@@ -30,15 +30,89 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ControlUnit.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ControlUnit.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ControlUnit.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ControlUnit_TESTBENCH_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ControlUnit_TESTBENCH_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ControlUnit_TESTBENCH_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ControlUnit_TESTBENCH_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="ControlUnit_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ControlUnit_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="ControlUnit_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ControlUnit_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1612629041" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1612629041">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612631087" xil_pn:in_ck="-5481018313670140382" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1612631087">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ControlUnit.v"/>
+      <outfile xil_pn:name="ControlUnit_TESTBENCH.v"/>
+      <outfile xil_pn:name="PassCheckUnit.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1612629446" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-181042067375034473" xil_pn:start_ts="1612629446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612629446" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1348268092628634523" xil_pn:start_ts="1612629446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612629045" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5434079343047885352" xil_pn:start_ts="1612629045">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612631087" xil_pn:in_ck="-5481018313670140382" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1612631087">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ControlUnit.v"/>
+      <outfile xil_pn:name="ControlUnit_TESTBENCH.v"/>
+      <outfile xil_pn:name="PassCheckUnit.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1612631090" xil_pn:in_ck="-5481018313670140382" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8517978226361995472" xil_pn:start_ts="1612631087">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ControlUnit_TESTBENCH_beh.prj"/>
+      <outfile xil_pn:name="ControlUnit_TESTBENCH_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1612631090" xil_pn:in_ck="-8334927692843568193" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2726141706140790989" xil_pn:start_ts="1612631090">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ControlUnit_TESTBENCH_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
     <transform xil_pn:end_ts="1612562446" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1612562446">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -67,7 +141,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1612628471" xil_pn:in_ck="-8939011227708231970" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-3202919934906254344" xil_pn:start_ts="1612628459">
+    <transform xil_pn:end_ts="1612631170" xil_pn:in_ck="-8939011227708231970" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-3202919934906254344" xil_pn:start_ts="1612631156">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ControlUnit.lso"/>
@@ -77,6 +151,8 @@
       <outfile xil_pn:name="ControlUnit.stx"/>
       <outfile xil_pn:name="ControlUnit.syr"/>
       <outfile xil_pn:name="ControlUnit.xst"/>
+      <outfile xil_pn:name="ControlUnit_TESTBENCH_beh.prj"/>
+      <outfile xil_pn:name="ControlUnit_TESTBENCH_stx_beh.prj"/>
       <outfile xil_pn:name="ControlUnit_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>

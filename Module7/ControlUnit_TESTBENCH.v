@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   19:55:05 02/06/2021
-// Design Name:   ControlUnit
-// Module Name:   C:/Users/venus/Desktop/uni2/3rd_SEMESTER/madar mantegh/FinalProject/Module7/ControlUnit_TESTBENCH.v
-// Project Name:  Module7
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: ControlUnit
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module ControlUnit_TESTBENCH;
 
 	// Inputs
@@ -54,19 +32,86 @@ module ControlUnit_TESTBENCH;
 
 	initial begin
 		// Initialize Inputs
-		arst = 0;
-		clk = 0;
-		request = 0;
-		confirm = 0;
-		password = 0;
-		syskey = 0;
-		configin = 0;
+		
+		arst = 1'b1;
+		request = 1'b1;
+		confirm = 1'b1;
+		password = 2'b00;
+		syskey = 2'b10;
+		configin = 35'b00000000000000000000000000000000001;
+		#10;
+		/*
+      arst = 1'b0;
+		request = 1'b1;
+		confirm = 1'b1;
+		password = 2'b00;
+		syskey = 2'b10;
+		configin = 35'b00000000001000000000000000000000000;
+		#40;
+      arst = 1'b0;
+		request = 1'b1;
+		confirm = 1'b1;
+		password = 2'b00;
+		syskey = 2'b10;
+		configin = 35'b00000000000000000000000010000000000;
+		#40;
+      arst = 1'b0;
+		request = 1'b1;
+		confirm = 1'b1;
+		password = 2'b00;
+		syskey = 2'b10;
+		configin = 35'b00000000000000000000110000000000000;
+		#5;
+      arst = 1'b0;
+		request = 1'b0;
+		confirm = 1'b1;
+		password = 2'b00;
+		syskey = 2'b10;
+		configin = 35'b00000000000000000011000000000000000;
+		#40;
+		*/
+		//now should go to state active 010
+      arst = 1'b0;
+		request = 1'b1;
+		confirm = 1'b0;
+		password = 2'b10;
+		syskey = 2'b10;
+		configin = 35'b00000000000000000011000000000000000;
+      #40;
+		//after these changes should go to state request 011
+      arst = 1'b0;
+		request = 1'b1;
+		confirm = 1'b1;
+		password = 2'b10;
+		syskey = 2'b10;
+		configin = 35'b00000000000000000011000000000000000;
+		#40
+		//here should do nothing and stay on its place cause its waiting for the confirm 
+      arst = 1'b0;
+		request = 1'b1;
+		confirm = 1'b0;
+		password = 2'b00;
+		syskey = 2'b10;
+		configin = 35'b00000000000010000011000000000000111;
+		#40;
+      arst = 1'b0;
+		request = 1'b1;
+		confirm = 1'b1;
+		password = 2'b00;
+		syskey = 2'b10;
+		configin = 35'b10000000000010000011000000000000101;
+		#100
+		$finish;
+       
+	end
 
-		// Wait 100 ns for global reset to finish
-		#100;
-        
-		// Add stimulus here
-
+	initial begin
+	//clock with T=40
+	clk = 0;
+		forever	begin
+			#20 
+			clk = ~clk;
+		end
 	end
       
 endmodule

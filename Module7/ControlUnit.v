@@ -13,7 +13,6 @@
 --  Additional Comments:
 --		in contribution to Arvand Darvish
 --*/
-
 /*-----------------------------------------------------------
 ---  Module Name: Control Unit
 ---  Description: Module7:	a -not so- simple memory unit
@@ -90,6 +89,9 @@ module ControlUnit (
 						`STATE_STORE : begin
 							write_en  <= 1'b1;
 							configout <= configin;
+							//and go back to the idle state 
+							dbg_state <= `STATE_IDLE;
+							
 						end
 						`STATE_TRAP : begin
 							write_en  <= 1'b0;

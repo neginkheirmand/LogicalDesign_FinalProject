@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Reading design: ControlUnit.prj
 
@@ -313,8 +313,8 @@ Delay:               1.102ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDC:C->Q             40   0.282   0.756  dbg_state_2 (dbg_state_2)
-     LUT4:I1->O            1   0.053   0.000  dbg_state[2]_GND_1_o_wide_mux_4_OUT<0>1 (dbg_state[2]_GND_1_o_wide_mux_4_OUT<0>)
-     FDP:D                     0.011          dbg_state_0
+     LUT6:I3->O            1   0.053   0.000  dbg_state[2]_GND_1_o_wide_mux_4_OUT<2>1 (dbg_state[2]_GND_1_o_wide_mux_4_OUT<2>)
+     FDC:D                     0.011          dbg_state_2
     ----------------------------------------
     Total                      1.102ns (0.346ns logic, 0.756ns route)
                                        (31.4% logic, 68.6% route)
@@ -374,12 +374,12 @@ clk            |    1.102|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 8.70 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.98 secs
  
 --> 
 
-Total memory usage is 4701476 kilobytes
+Total memory usage is 4708388 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
