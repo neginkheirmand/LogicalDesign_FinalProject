@@ -89,7 +89,7 @@ module ControlUnit (
 						end
 						`STATE_STORE : begin
 							write_en  <= 1'b1;
-							//				-------- HERE YOU SHOULD STORE DATA	----------
+							configout <= configin;
 						end
 						`STATE_TRAP : begin
 							write_en  <= 1'b0;
